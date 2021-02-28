@@ -1,0 +1,24 @@
+Thursday 25 feb
+Started 19:00 ended 23:00
+
+Set up gloss, setting up cabal and downloading random lib etc, troubleshooting some stuff. 
+Started implementing main entities needed, datatype and types for mines etc, started looking at how to randomize out mines for the playing field.
+
+
+Friday 26 feb
+Started 14.30 ended 19.30
+
+Reading more into gloss, implemented functions to randomize out mines on the playing field, learning about Data.Map and Data.Set (dictionaries kind of)
+
+Saturday 27 feb
+Started 16.40 break 19.25
+Started 21.00 ended 23:51
+
+Looking more into creating a grid playingfield via gloss, was very tricky but managed to create one but the code is very messy atm.
+
+
+Sunday 28 feb
+Started 17:02 ended 20:38
+Made functions to draw cells and label the cells depending on what state they are in, unopenened, flagged etc, it seems to work however
+right now none of the cells are in the dictionary so when you try to lookup a cell you get Nothing as answer, i need to add all the cells to the dictionary
+but the code for drawing seems to work since i can change the text of when a cell is "nothing" to whatever and see that it draws it on every cell.
