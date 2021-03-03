@@ -1,0 +1,54 @@
+{- createMode int
+     Chooses the size of the playing field and amount of mines.
+     PRE:  ?
+     RETURNS: a Mode depending on the given int. If 'int' isn't 2 or 3, the "Beginner" Mode will be chosen.
+     SIDE EFFECTS: ?
+     EXAMPLES: createMode 1 = Mode {name = "Beginner", fieldSize = (10,10), mineCount = 10}
+  -}
+
+{- cellColor mbCS
+     Assigns different colors to different cell states.
+     PRE:
+     RETURNS: a color corresponding to the mbCS given
+     SIDE EFFECTS: ?
+     EXAMPLES: 
+  -}
+
+{- cellPic mbCS
+     Assigns labels to cells depending on what the cell's state is.
+     PRE: 
+     RETURNS: a different String depending on what mbCS was given
+     SIDE EFFECTS: 
+     EXAMPLES: 
+  -}
+
+datatyper:
+{- CellStatus
+  describes the state of a cell. a cell can have different states, these are:
+      Mine - contains a mine
+      Flag - flagged by player
+      Open - opened by player, also displays the amount of mines around the cell
+-} 
+
+{- gameField
+    Represents the playing field. 
+    The cell coordinates are stored as the key and the cell state as the value.
+-}
+
+{-- Cell
+  Represents a cell. 
+  The cell’s coordinate position is represented by two ints in a tuple. 
+ --}
+
+{- Mine
+  represents a mine. stores the Mine state together with the coordinates of the cell in a set 
+-}
+
+{- Mode
+  Represents the difficulty setting. 
+    name is the name of the difficulity setting 
+    fieldSize is the size of the playing field, two ints in a tuple represent the amount of nodes on the x and y axises
+    mineCount is the amount of mines that will be placed
+-}
+
+GameState är lite svår
